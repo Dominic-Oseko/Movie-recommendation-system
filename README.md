@@ -52,6 +52,6 @@ We then trained the best model with pipeline.
 - Increase the supply of drama, comedy, and action movies: These genres were the most popular among the users, and therefore, there is a higher chance of success if more movies in these genres are pushed in the platform.
 - Consider user-generated tags: Although the tags were not included in this analysis, they can provide valuable insight into how users perceive movies. By analyzing user-generated tags, it may help in understanding the users' preferences and improving the movie recommendation system.
 ## Repository Guide
-The data sets used can be found here.
-The notebook can be found here
+- The data sets used can be found here:https://github.com/Dominic-Oseko/Movie-recommendation-system/tree/main/Data
+- The notebook can be found here
 The non-technical presentation can be found .
