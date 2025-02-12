@@ -31,10 +31,15 @@ GroupLens, a resaerch lab at the University of Minnesota made available thee Mov
 ![image](https://github.com/user-attachments/assets/66050b90-0e63-4f81-a9f7-6790d51c2dd4)
 ## MODELING
 We trained three models.
+
 The models include:
  - SVD(Singular Value Decomposition)
  - KNNBasic(Simple nearest neighbours)
  - KNNWithMeans(Neighbours but with mean adjustment)
+
+We did hyperparameter tuning with GridSearchCV on the best model.
+
+We then trained the best model with pipeline.
 ## CONCLUSION
 - Our recommendation system successfully generates top-5 movie recommendations for users based on past ratings.
 - SVD (Singular Value Decomposition) was the best-performing algorithm, demonstrating strong predictive accuracy.
@@ -46,3 +51,7 @@ The models include:
 - Increase the promotion of less popular movies. By promoting these movies, it may lead to an increase in their popularity and more positive ratings.
 - Increase the supply of drama, comedy, and action movies: These genres were the most popular among the users, and therefore, there is a higher chance of success if more movies in these genres are pushed in the platform.
 - Consider user-generated tags: Although the tags were not included in this analysis, they can provide valuable insight into how users perceive movies. By analyzing user-generated tags, it may help in understanding the users' preferences and improving the movie recommendation system.
+## Repository Guide
+The data sets used can be found here.
+The notebook can be found here
+The non-technical presentation can be found .
